@@ -1,4 +1,6 @@
 Attribute VB_Name = "CenterAcrossSelection"
-Sub ‘I‘ğ”ÍˆÍ“à‚Å’†‰›()
+
+Sub é¸æŠç¯„å›²å†…ã§ä¸­å¤®()
     Selection.HorizontalAlignment = xlCenterAcrossSelection
 End Sub
+
