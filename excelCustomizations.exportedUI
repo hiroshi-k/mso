@@ -1,0 +1,180 @@
+<mso:cmd app="Excel" dt="1" />
+<mso:customUI xmlns:msox="http://schemas.microsoft.com/office/2006/01/customui/special" xmlns:mso="http://schemas.microsoft.com/office/2009/07/customui">
+  <mso:ribbon>
+    <mso:qat>
+      <mso:sharedControls>
+        <mso:control idQ="mso:FileSendAsAttachment" visible="false" insertBeforeQ="mso:FileNewDefault"/>
+        <mso:control idQ="mso:Spelling" visible="false" insertBeforeQ="mso:FileNewDefault"/>
+        <mso:control idQ="mso:SortAscendingExcel" visible="false" insertBeforeQ="mso:FileNewDefault"/>
+        <mso:control idQ="mso:SortDescendingExcel" visible="false" insertBeforeQ="mso:FileNewDefault"/>
+        <mso:control idQ="mso:FileOpenRecentFile" visible="false" insertBeforeQ="mso:FileNewDefault"/>
+        <mso:control idQ="mso:FileNewDefault" visible="true"/>
+        <mso:control idQ="mso:FileOpen" visible="true"/>
+        <mso:control idQ="mso:FileSave" visible="true"/>
+        <mso:control idQ="mso:FileSaveAs" visible="true" insertBeforeQ="mso:FilePrintQuick"/>
+        <mso:control idQ="mso:FilePrintQuick" visible="true"/>
+        <mso:control idQ="mso:PrintPreviewAndPrint" visible="false"/>
+        <mso:control idQ="mso:PrintPreviewFullScreen" visible="true" insertBeforeQ="mso:Undo"/>
+        <mso:separator idQ="msox:sep1" visible="true" insertBeforeQ="mso:Undo"/>
+        <mso:control idQ="mso:Undo" visible="true"/>
+        <mso:control idQ="mso:Redo" visible="true"/>
+        <mso:separator idQ="msox:sep4" visible="true"/>
+        <mso:control idQ="mso:PasteValues" visible="true"/>
+        <mso:control idQ="mso:PasteFormulas" visible="true"/>
+        <mso:control idQ="mso:PasteFormatting" visible="true"/>
+        <mso:separator idQ="msox:sep2" visible="true"/>
+        <mso:control idQ="mso:Font" visible="true"/>
+        <mso:control idQ="mso:FontSize" visible="true"/>
+        <mso:control idQ="mso:FontSizeIncrease" visible="true"/>
+        <mso:control idQ="mso:FontSizeDecrease" visible="true"/>
+        <mso:control idQ="mso:Bold" visible="true"/>
+        <mso:control idQ="mso:Underline" visible="true"/>
+        <mso:separator idQ="msox:sep8" visible="true"/>
+        <mso:control idQ="mso:AlignLeft" visible="true"/>
+        <mso:control idQ="mso:AlignCenter" visible="true"/>
+        <mso:control idQ="mso:AlignRight" visible="true"/>
+        <mso:separator idQ="msox:sep3" visible="true"/>
+        <mso:control idQ="mso:WrapText" visible="true"/>
+        <mso:control idQ="mso:Lock" visible="true"/>
+        <mso:separator idQ="msox:sep5" visible="true"/>
+        <mso:control idQ="mso:AutoSum" visible="true"/>
+        <mso:control idQ="mso:EqualSign" visible="true"/>
+        <mso:control idQ="mso:DollarSign" visible="true"/>
+        <mso:control idQ="mso:CommaStyle" visible="true"/>
+        <mso:control idQ="mso:PercentStyle" visible="true"/>
+        <mso:control idQ="mso:DecimalsDecrease" visible="true"/>
+        <mso:control idQ="mso:DecimalsIncrease" visible="true"/>
+        <mso:separator idQ="msox:sep6" visible="true"/>
+        <mso:control idQ="mso:GoTo" visible="true"/>
+        <mso:control idQ="mso:Filter" visible="true"/>
+        <mso:control idQ="mso:SortClear" visible="true"/>
+        <mso:control idQ="mso:PivotTableGroupSelection" visible="true"/>
+        <mso:control idQ="mso:OutlineUngroup" visible="true"/>
+        <mso:control idQ="mso:TableSelectVisibleCells" visible="true"/>
+        <mso:control idQ="mso:ViewGridlinesToggleExcel" visible="true"/>
+        <mso:control idQ="mso:FreezePanes" visible="true"/>
+        <mso:separator idQ="msox:sep7" visible="true"/>
+        <mso:control idQ="mso:ObjectsSelect" visible="true"/>
+        <mso:control idQ="mso:ShapesInsertGallery" visible="true"/>
+        <mso:control idQ="mso:CellFillColorPicker" visible="true"/>
+        <mso:control idQ="mso:FontColorPicker" visible="true"/>
+        <mso:control idQ="mso:ShapeOutlineColorPicker" visible="true"/>
+        <mso:control idQ="mso:ViewFullScreenView" visible="true"/>
+      </mso:sharedControls>
+    </mso:qat>
+    <mso:tabs>
+      <mso:tab id="mso_c5.C99960" label="マイタブ​​" insertBeforeQ="mso:TabHome">
+        <mso:group id="mso_c6.C99960" label="ファイル​​" autoScale="true">
+          <mso:control idQ="mso:PrintAreaMenu" visible="true"/>
+          <mso:control idQ="mso:PageBreakMenu" visible="true"/>
+          <mso:control idQ="mso:PageSetupPageDialog" visible="true"/>
+          <mso:control idQ="mso:ApplicationOptionsDialog" visible="true"/>
+          <mso:control idQ="mso:EditLinks" visible="true"/>
+          <mso:control idQ="mso:HyperlinkInsert" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c11.CEF032" label="クリップボード" autoScale="true">
+          <mso:control idQ="mso:PasteMenu" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c7.CAB649" label="書式​​" autoScale="true">
+          <mso:control idQ="mso:ConditionalFormattingMenu" visible="true"/>
+          <mso:control idQ="mso:SheetHide" label="シート非表示" imageMso="BlackAndWhiteDontShow" visible="true"/>
+          <mso:control idQ="mso:SheetUnhide" label="シート​​再表示" imageMso="BlackAndWhiteBlackWithWhiteFill" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c4.157BD02" label="表示形式​​" highDensityLayout="true">
+          <mso:control idQ="mso:AlignTopExcel" label=" " visible="true"/>
+          <mso:control idQ="mso:AlignMiddleExcel" label=" " visible="true"/>
+          <mso:control idQ="mso:AlignBottomExcel" label=" " visible="true"/>
+          <mso:control idQ="mso:MergeCenter" label=" " visible="true"/>
+          <mso:control idQ="mso:IndentIncreaseExcel" visible="true"/>
+          <mso:control idQ="mso:IndentDecreaseExcel" visible="true"/>
+          <mso:control idQ="mso:MergeCellsAcross" visible="true"/>
+          <mso:control idQ="mso:MergeCells" visible="true"/>
+          <mso:control idQ="mso:SplitCells" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c12.D82540" label="ツール​​" autoScale="true">
+          <mso:control idQ="mso:SheetProtect" visible="true"/>
+          <mso:control idQ="mso:ReviewRestrictEditing" visible="true"/>
+          <mso:control idQ="mso:ReviewShareWorkbook" visible="true"/>
+          <mso:control idQ="mso:PlayMacro" visible="true"/>
+          <mso:control idQ="mso:MacroSecurity" visible="true"/>
+          <mso:control idQ="mso:ApplicationOptionsDialog" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c8.CC3D95" label="データ​​" highDensityLayout="true">
+          <mso:control idQ="mso:SortDialog" visible="true"/>
+          <mso:control idQ="mso:SortDescendingExcel" label=" " visible="true"/>
+          <mso:control idQ="mso:SortAscendingExcel" label=" " visible="true"/>
+          <mso:control idQ="mso:AdvancedFilterDialog" label=" " visible="true"/>
+          <mso:control idQ="mso:DataValidationMenu" label=" " visible="true"/>
+          <mso:control idQ="mso:PivotTableInsert" label=" " visible="true"/>
+          <mso:control idQ="mso:OutlineSubtotals" visible="true"/>
+          <mso:control idQ="mso:ConvertTextToTable" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c3.1553EE3" label="ウィンドウ​​" autoScale="true">
+          <mso:control idQ="mso:WindowSwitchWindowsMenuExcel" visible="true"/>
+          <mso:control idQ="mso:WindowNew" label="新しいWを開く" visible="true"/>
+          <mso:control idQ="mso:WindowsArrangeAll" visible="true"/>
+          <mso:control idQ="mso:WindowSplitToggle" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c1.14DA360" label="罫線​​" highDensityLayout="true">
+          <mso:control idQ="mso:BordersGallery" visible="true"/>
+          <mso:control idQ="mso:BorderNone" visible="true"/>
+          <mso:control idQ="mso:BordersAll" visible="true"/>
+          <mso:control idQ="mso:BorderOutside" visible="true"/>
+          <mso:control idQ="mso:BorderInsideHorizontal" visible="true"/>
+          <mso:control idQ="mso:BorderBottom" visible="true"/>
+          <mso:control idQ="mso:BorderInside" visible="true"/>
+          <mso:control idQ="mso:BorderLeft" visible="true"/>
+          <mso:control idQ="mso:BorderInsideVertical" visible="true"/>
+          <mso:control idQ="mso:BorderTop" visible="true"/>
+          <mso:control idQ="mso:BorderRight" visible="true"/>
+          <mso:control idQ="mso:BorderThickBottom" visible="true"/>
+          <mso:control idQ="mso:BorderDoubleBottom" visible="true"/>
+          <mso:control idQ="mso:BorderThickOutside" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c1.549561" label="グラフ​​" imageMso="Chart3DColumnChart" autoScale="true">
+          <mso:control idQ="mso:ChartInsert" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c10.CD4948" label="図形​​" imageMso="_3DStyle" autoScale="true">
+          <mso:gallery idQ="mso:ShapesInsertGallery" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:ObjectsSelect" visible="true"/>
+          <mso:control idQ="mso:TextBoxInsertMenu" visible="true"/>
+          <mso:control idQ="mso:PictureInsertFromFile" visible="true"/>
+          <mso:control idQ="mso:ClipArtInsert" visible="true"/>
+          <mso:gallery idQ="mso:WordArtInsertGallery" showInRibbon="false" visible="true"/>
+          <mso:gallery idQ="mso:ShapeFillColorPicker" showInRibbon="false" visible="true"/>
+          <mso:gallery idQ="mso:ShapeOutlineColorPicker" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:ObjectFormatDialog" visible="true"/>
+          <mso:gallery idQ="mso:ShadowColorPickerClassic" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:BorderStyle" visible="true"/>
+          <mso:gallery idQ="mso:LineThickness" showInRibbon="false" visible="true"/>
+          <mso:gallery idQ="mso:TextOutlineDashesGallery" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:PictureSetTransparentColor" visible="true"/>
+          <mso:gallery idQ="mso:ArrowStyleGallery" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:ShadowOnOrOffClassic" visible="true"/>
+          <mso:gallery idQ="mso:ShadowStyleGalleryClassic" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:FormControlButton" visible="true"/>
+          <mso:control idQ="mso:FormControlCombinationListEdit" visible="true"/>
+          <mso:control idQ="mso:Camera" visible="true"/>
+          <mso:control idQ="mso:ObjectAlignMenu" visible="true"/>
+          <mso:control idQ="mso:ObjectBringForwardMenu" visible="true"/>
+          <mso:control idQ="mso:ObjectSendBackwardMenu" visible="true"/>
+        </mso:group>
+        <mso:group id="mso_c2.153323A" label="数式​​" autoScale="true">
+          <mso:gallery idQ="mso:FunctionsRecentlyUsedtInsertGallery" showInRibbon="false" visible="true"/>
+          <mso:control idQ="mso:NameManager" label=" " visible="true"/>
+          <mso:control idQ="mso:NameCreateFromSelection" label=" " visible="true"/>
+          <mso:control idQ="mso:CalculationOptionsMenu" label=" " visible="true"/>
+          <mso:control idQ="mso:EqualSign" label=" " visible="true"/>
+          <mso:control idQ="mso:MultiplicationSign" label=" " visible="true"/>
+          <mso:control idQ="mso:DivisionSign" label=" " visible="true"/>
+          <mso:control idQ="mso:PlusSign" label=" " visible="true"/>
+          <mso:control idQ="mso:MinusSign" label=" " visible="true"/>
+          <mso:control idQ="mso:ParenthesisLeft" label=" " visible="true"/>
+          <mso:control idQ="mso:ParenthesisRight" label=" " visible="true"/>
+          <mso:control idQ="mso:PercentSign" visible="true"/>
+        </mso:group>
+      </mso:tab>
+      <mso:tab idQ="mso:TabAddIns" visible="false"/>
+    </mso:tabs>
+  </mso:ribbon>
+</mso:customUI>
